@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b3e07580-0df7-44cb-ab11-3c8e3d71775e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/mehamiatextiles",
+    "appService.deploySubpath": "."
+}
