@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
-import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import ContactUs from './components/pages/ContactUs';
 import Home from './components/pages/Home';
@@ -16,7 +15,6 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/about-us' component={AboutUs} />
           <Route path='/contact-us' component={ContactUs} />

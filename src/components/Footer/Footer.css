@@ -77,13 +77,11 @@
   .social-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
   }
   
   .website-rights {
@@ -110,5 +108,10 @@
   
     .social-media-wrap {
       flex-direction: column;
+    }
+
+    .social-logo {
+      font-size: 22px;
+      padding-bottom: 8px;
     }
   }

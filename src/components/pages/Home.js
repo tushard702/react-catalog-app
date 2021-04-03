@@ -6,7 +6,7 @@ import HeroSection from '../HeroSection/HeroSection';
 function Home() {
   return (
     <>
-      <HeroSection backgroundImageUrl={'/images/img-home.jpg'}/>
+      <HeroSection backgroundImageUrl={'/images/img-home.jpeg'}/>
       <CardsContainer />
     </>
   );

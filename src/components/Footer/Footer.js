@@ -32,8 +32,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-            TGMart 
-            <i className="fas fa-store" />
+            Mehamia Textiles Pvt Ltd
             </Link>
           </div>
           <div className='social-icons'>
@@ -55,7 +54,7 @@ function Footer() {
           </div>
         </div>
       </section>
-      <small className='website-rights'>© 2021 TGMart. All rights reserved.</small>
+      <small className='website-rights'>© 2021 Mehamia Textiles Pvt Ltd. All rights reserved.</small>
     </div>
   );
 }

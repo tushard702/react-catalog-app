@@ -11,8 +11,7 @@
   
   .hero-container > h1 {
     color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
+    font-size: 69px;
   }
   
   .hero-container > p {
@@ -45,7 +44,7 @@
   @media screen and (max-width: 768px) {
     .hero-container > h1 {
       font-size: 50px;
-      margin-top: -100px;
+      margin: 8px;
     }
   
     .hero-container > p {

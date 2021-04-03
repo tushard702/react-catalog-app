@@ -6,6 +6,9 @@
   h1 {
     text-align: center;
   }
+.fa-fire {
+  color: #ff0f0fc4;
+}  
   
   .cards__container {
     display: flex;
