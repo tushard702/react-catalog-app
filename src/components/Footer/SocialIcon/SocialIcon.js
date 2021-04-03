@@ -2,16 +2,15 @@ import React from 'react'
 
 import './SocialIcon.css'
 
-const links = {
-    facebook: 'https://twitter.com',
-    twitter: 'https://twitter.com',
-    instagram: 'https://twitter.com',
-    youtube: 'https://twitter.com',
-    linkedin: 'https://twitter.com',
-};
-
 const getAppLink = (appName) => {
-    return links.appName;
+  switch(appName){
+    case 'facebook': return 'https://twitter.com';
+    case 'twitter': return 'https://twitter.com';
+    case 'instagram': return 'https://twitter.com';
+    case 'youtube': return 'https://twitter.com';
+    case 'linkedin': return 'https://twitter.com';
+    default : return 'https://fb.com';
+  }
 }
 
 export default function SocialIcon({appName}) {

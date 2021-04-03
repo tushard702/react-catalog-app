@@ -12,13 +12,13 @@ function CardsContainer() {
           <ul className='cards__items'>
             <CardItem
               imageSrc='images/cotton-towel.jpeg'
-              text='We deal in all colors and all sizes of cotton towels as per requirement'
+              text='We deal in all colors and all sizes of cotton towels as per requirement.'
               label='cotton-towels'
               path='/products'
             />
             <CardItem
               imageSrc='images/tshirts.jpeg'
-              text='We deal in all kinds of para-millitary and solid tshirts'
+              text='We deal in all kinds of para-millitary and solid tshirts.'
               label='tshirts'
               path='/products'
             />
@@ -26,19 +26,19 @@ function CardsContainer() {
           <ul className='cards__items'>
             <CardItem
               imageSrc='images/cotton-tape.jpeg'
-              text='We deal in grey undyed and sulphur khaki cotton tape newar, size can be as per requirement'
+              text='We deal in grey undyed and sulphur khaki cotton tape newar. Size can be as per requirement.'
               label='cotton-tape-newar'
               path='/products'
             />
             <CardItem
               imageSrc='images/jute.jpeg'
-              text='We deal in sutli, sisal, manilla ropes wih different sizes and strength'
+              text='We deal in sutli, sisal, manilla ropes with different sizes and strength.'
               label='jute thread'
               path='/products'
             />
             <CardItem
               imageSrc='images/cotton-yarn.jpeg'
-              text='We deal in cotton thread twine and cotton yarn, size and color as per requirement'
+              text='We deal in cotton thread twine and cotton yarn. Size and color as per requirement.'
               label='cotton yarns'
               path='/sign-up'
             />
