@@ -1,6 +1,9 @@
 import React from 'react';
 import '../../App.css';
+import CardsContainer from '../CardsContainer/CardsContainer';
 
 export default function Products() {
-  return <h1 className='products'>PRODUCTS will be added</h1>;
+  return (
+    <CardsContainer />
+  );
 }
