@@ -43,6 +43,26 @@ function CardsContainer() {
               path='/sign-up'
             />
           </ul>
+          <ul className='cards__items'>
+            <CardItem
+              imageSrc='images/postal-bags.png'
+              text='We deal in all types of Nylon, Cotton/Dosuti bags used in postal stores. Sizes can be as per requirement.'
+              label='Bags for postal stores'
+              path='/products'
+            />
+            <CardItem
+              imageSrc='images/PP-Bags.jpeg'
+              text='We deal in PP bags that can be used in postal stores as well as for packing food grains. Size and capacity can be as per requirement.'
+              label='PP-Bags'
+              path='/products'
+            />
+            <CardItem
+              imageSrc='images/sleeping-bag.jpg'
+              text='We deal in light weight sleeping bags. Size can be as per requirement.'
+              label='Sleepings-Bags'
+              path='/products'
+            />
+          </ul>
         </div>
       </div>
     </div>
